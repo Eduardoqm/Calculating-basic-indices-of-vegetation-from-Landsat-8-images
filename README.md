@@ -47,6 +47,7 @@ Now it's time to calculate the indices. Let us calculate the indices of NDVI, EV
 
 **### Normalized Difference Vegetation Index (NDVI)**
 This index is a numerical indicator that uses the near red and infrared spectral bands. NDVI is highly associated with vegetation content. High NDVI values correspond to areas that reflect more on the near-infrared spectrum. The higher reflectance in the near infrared corresponds to a denser and healthier vegetation. The NDVI is calculated by following this equation:
+
 ![NDVI_Traditional_Formula](https://user-images.githubusercontent.com/24628679/61597106-6d867e00-abe2-11e9-9592-49c173d23369.jpg)
 
 
@@ -60,6 +61,9 @@ Using the corresponding bands:
 ### **Enhanced vegetation index - Two-band (EVI2)**
 This index is an 'optimized' vegetation index designed to improve the vegetation signal with better sensitivity in regions of high biomass and better monitoring of vegetation through a decoupling of the canopy bottom signal and a reduction in atmospheric influences. The EVI is calculated by following this equation:
 
+![EVI2](https://user-images.githubusercontent.com/24628679/61597170-69a72b80-abe3-11e9-8602-72e284dbc959.png)
+
+
 Using the corresponding bands:
 `evi2 <- 2.5*((band5-band4)/(band5+2.4*band4+1))`
 
@@ -69,6 +73,9 @@ Using the corresponding bands:
 
 ### **Normalized Difference Moisture Index (NDMI)**
 This index is a numerical indicator that is used in combination with other vegetation indexes (NDVI and / or AVI), which is associated with vegetation humidity. NDMI uses short-wave and short-wave spectral bands to capture moisture variations in vegetated areas. Monitoring of droughts and subtle changes in vegetation moisture conditions. NDMI can also be used to determine fuel moisture for forest fire risk assessments. The NDMI is calculated by following this equation:
+
+![Ndmi](https://user-images.githubusercontent.com/24628679/61597175-788dde00-abe3-11e9-91de-8142177b89f8.png)
+
 
 Using the corresponding bands:
 `ndmi <- (band5-band6)/(band5+band6)`
