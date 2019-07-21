@@ -11,7 +11,7 @@ library(rgdal)
 We need to open our image in the R environment, but each Landsat scene comes with multiple bands. We will create a list of bands and then we'll make a stack. But to facilitate understanding we will carry the bands of our interest in diferentes objects.
 
 ```
-list <- list.files(path="C:/Users/Eduardo Q Marques/Documents/My Jobs/EQMapas/Bacaba", pattern = ".tif$", full.names=TRUE,recursive=TRUE)
+list <- list.files(path="C:/Users/Documents/Bacaba", pattern = ".tif$", full.names=TRUE,recursive=TRUE)
 
 bands <- brick(stack(list))
 levelplot(bands[[9]])
@@ -22,7 +22,7 @@ levelplot(bands[[9]])
 
 But before separating the bands we will cut them with the limits of the park
 
-`bcb=readOGR(dsn = "C:/Users/Eduardo Q Marques/Documents/My Jobs/EQMapas/shapes",layer="limite_reserva_total")`
+`bcb=readOGR(dsn = "C:/Users/Documents/shapes",layer="limite_reserva_total")`
 
 Change projection so data is compatible
 ```
