@@ -74,7 +74,7 @@ Using the corresponding bands:
 ### **Normalized Difference Moisture Index (NDMI)**
 This index is a numerical indicator that is used in combination with other vegetation indexes (NDVI and / or AVI), which is associated with vegetation humidity. NDMI uses short-wave and short-wave spectral bands to capture moisture variations in vegetated areas. Monitoring of droughts and subtle changes in vegetation moisture conditions. NDMI can also be used to determine fuel moisture for forest fire risk assessments. The NDMI is calculated by following this equation:
 
-![Ndmi](https://user-images.githubusercontent.com/24628679/61597175-788dde00-abe3-11e9-91de-8142177b89f8.png)
+![tUL7izyqRiqYCb1HpEpW_Screen Shot 2017-10-16 at 01 05 02](https://user-images.githubusercontent.com/24628679/61629542-9dbe3300-ac5b-11e9-9346-c2bb75d3b93e.png)
 
 
 Using the corresponding bands:
