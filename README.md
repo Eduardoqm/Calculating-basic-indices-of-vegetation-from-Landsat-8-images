@@ -46,6 +46,7 @@ band7 <- bands[[9]]
 Now it's time to calculate the indices. Let us calculate the indices of NDVI, EVI2 and NDMI.
 
 **### Normalized Difference Vegetation Index (NDVI)**
+
 This index is a numerical indicator that uses the near red and infrared spectral bands. NDVI is highly associated with vegetation content. High NDVI values correspond to areas that reflect more on the near-infrared spectrum. The higher reflectance in the near infrared corresponds to a denser and healthier vegetation. The NDVI is calculated by following this equation:
 
 ![NDVI_Traditional_Formula](https://user-images.githubusercontent.com/24628679/61597106-6d867e00-abe2-11e9-9592-49c173d23369.jpg)
